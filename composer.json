@@ -1,0 +1,19 @@
+{
+    "name": "rogerlopez13/php-jwk",
+    "description": "PHP library to create JWKs",
+    "type": "library",
+    "keywords": [
+        "JWK",
+        "PHP"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": "^7.4",
+        "phpseclib/phpseclib": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Rogerlopez13\\Jwk\\": "src/"
+        }
+    }
+}
